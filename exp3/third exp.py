@@ -1,0 +1,15 @@
+#String Operations
+text= input ("Enter a text")
+print("Original String:",text)
+print("Length:",len(text))
+print("Uppercase:",text.upper())
+print("Lowercase:",text.lower())
+print("Character at index 5:",text[5])
+print("Position of Snehasree:",text.find("Snehasree"))
+print("Slice",text[5:])
+print("Replace:",text.replace("Snehasree","Hello"))
+print(text)
+print("Contains Snehasree:","Snehasree" in text)
+print("Concatenation:",text+ " Mukherjee")
+text2= "    Hello Sneha           "
+print("Trim:",text2.strip())
